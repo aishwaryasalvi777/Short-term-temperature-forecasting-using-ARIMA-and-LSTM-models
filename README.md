@@ -59,11 +59,17 @@ This is a comprehensive time series forecasting project that compares **ARIMA** 
 ├── .gitattributes                  # Git configuration
 └── README.md                       # This file
 
+---
 
 ## 🚀 Getting Started
-Prerequisites
-Python 3.7+: pandas, numpy, scikit-learn, TensorFlow/Keras, statsmodels
 
-R 4.0+: forecast, lubridate, ggplot2, tidyverse
+### Prerequisites
+* **Python 3.7+**: `pandas`, `numpy`, `scikit-learn`, `TensorFlow/Keras`, `statsmodels`
+* **R 4.0+**: `forecast`, `lubridate`, `ggplot2`, `tidyverse`
+* **Tools**: Jupyter Notebook or RStudio for interactive development
 
-Jupyter Notebook or RStudio for interactive development.
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone [repository-url]
+   cd short-term-temp-forcast-ARIMA-LSTM-Statistic
