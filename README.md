@@ -31,10 +31,9 @@ This is a comprehensive time series forecasting project that compares **ARIMA** 
 
 ---
 
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone [repository-url]
-   cd short-term-temp-forcast-ARIMA-LSTM-Statistic
-
+🚀 Getting StartedPrerequisitesPython 3.7+: pandas, numpy, scikit-learn, TensorFlow/Keras, statsmodelsR 4.0+: forecast, lubridate, ggplot2, tidyverseTools: Jupyter Notebook or RStudio for interactive developmentInstallationClone the repository:Bashgit clone [repository-url]
+cd short-term-temp-forcast-ARIMA-LSTM-Statistic
+Set up Python environment:Bashpip install pandas numpy scikit-learn tensorflow statsmodels matplotlib seaborn
+Set up R environment:Rinstall.packages(c("forecast", "lubridate", "ggplot2", "tidyverse"))
+Running the AnalysisPython Implementation: Open 01_Source_Code/Python/PyCode_Stat.ipynb in Jupyter Notebook.R Implementation: Run the following in RStudio:Rrmarkdown::render('01_Source_Code/R_Code/Team12Code.Rmd')
+📊 MethodologyDataSource: US City Temperature DatasetVariables: Temperature readings, temporal features, city locationsFrequency: DailyApproachesARIMA ModelingStationarity testing (ADF, KPSS tests)ACF/PACF analysis for order selection ($p, d, q$)Parameter optimization and diagnostic checkingLSTM Neural NetworkSequence-to-sequence architectureMultiple layers with dropout regularizationTime series windowing and normalization📈 Key Findings[!IMPORTANT][Add specific results from your analysis here - e.g., "LSTM showed a 15% improvement in RMSE over ARIMA for volatile coastal cities."]👥 Team Members & ContributionsMemberRoleContributionsHarshalResearcherWeather forecasting research, meteorological analysisMrudulaML EngineerCNN-LSTM hybrid approaches, Bayesian methodsSidhhiLead AnalystARIMA comparative analysis, literature review📄 License & NotesThis project is submitted as coursework for the University at Buffalo.Project Status: Complete ✓Last Updated: December 2024
