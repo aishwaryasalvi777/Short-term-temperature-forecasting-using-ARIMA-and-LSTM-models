@@ -10,15 +10,6 @@ This is a comprehensive time series forecasting project that compares **ARIMA** 
 
 ---
 
-## 🎯 Project Objectives
-* **Data Analysis:** Conduct exploratory data analysis on US city temperature datasets.
-* **Model Development:** Implement and optimize both ARIMA and LSTM forecasting models.
-* **Comparative Analysis:** Benchmark model performance using statistical metrics.
-* **Documentation:** Provide comprehensive technical and statistical documentation.
-* **Validation:** Validate forecasts against real-world temperature patterns.
-
----
-
 ## 📁 Project Structure
 ```text
 .
@@ -61,11 +52,21 @@ This is a comprehensive time series forecasting project that compares **ARIMA** 
 
 ---
 
+## 🎯 Project Objectives
+* **Data Analysis:** Conduct exploratory data analysis on US city temperature datasets.
+* **Model Development:** Implement and optimize both ARIMA and LSTM forecasting models.
+* **Comparative Analysis:** Benchmark model performance using statistical metrics.
+* **Documentation:** Provide comprehensive technical and statistical documentation.
+* **Validation:** Validate forecasts against real-world temperature patterns.
+
+
+---
+
 ## 🚀 Getting Started
 
 ---
 
-### Prerequisites
+### **Prerequisites**
 * **Python 3.7+**: `pandas`, `numpy`, `scikit-learn`, `TensorFlow/Keras`, `statsmodels`
 * **R 4.0+**: `forecast`, `lubridate`, `ggplot2`, `tidyverse`
 * **Tools**: Jupyter Notebook or RStudio for interactive development
