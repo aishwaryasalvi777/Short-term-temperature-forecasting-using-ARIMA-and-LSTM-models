@@ -10,48 +10,6 @@ This is a comprehensive time series forecasting project that compares **ARIMA** 
 
 ---
 
-## 📁 Project Structure
-```text
-.
-├── 01_Source_Code/                 # All source code files
-│   ├── Python/                     # Python implementations
-│   │   └── PyCode_Stat.ipynb       # Main Python analysis notebook
-│   └── R_Code/                     # R implementations
-│       ├── Team12Code.Rmd          # Main R analysis document
-│       ├── data_preparation.R      # Data cleaning and preparation
-│       └── data_preparation-Siddhi-Acer-Aspire-7.R  # Variant
-│
-├── 02_Data/                        # Data storage
-│   ├── Raw/                        # Raw unprocessed data
-│   │   └── US_City_Temp_Data.csv   # Original temperature dataset
-│   └── Processed/                  # Cleaned and transformed data
-│
-├── 03_Documentation/               # Project documentation
-│   ├── Meeting_Notes/              # Team meeting notes
-│   └── Progress_Reports/           # Progress updates
-│       └── Progress Report.pdf     # Latest progress report
-│
-├── 04_Reports/                     # Final deliverables
-│   ├── Final_Reports/              # Completed reports and analysis
-│   │   ├── final report Time Series Analysis.docx
-│   │   ├── Team12eport.pdf
-│   │   ├── group project.pdf
-│   │   ├── Paper_33-Time_Series_Forecasting_using_LSTM_and_ARIMA.pdf
-│   │   └── Weather_Forecasting_Using_Spatial_Feature_Based_LS.pdf
-│   └── Proposals/                  # Project proposals
-│       ├── Team 12 Proposal.docx
-│       └── team12proposal.docx
-│
-│
-├── 05_Presentations/               # Presentation materials
-│   └── Project_Poster_Template.pptx
-│
-├── .archive/                       # Old/deprecated files
-├── .gitattributes                  # Git configuration
-└── README.md                       # This file
-
----
-
 ## 🎯 Project Objectives
 * **Data Analysis:** Conduct exploratory data analysis on US city temperature datasets.
 * **Model Development:** Implement and optimize both ARIMA and LSTM forecasting models.
