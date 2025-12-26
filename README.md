@@ -58,3 +58,12 @@ This is a comprehensive time series forecasting project that compares **ARIMA** 
 ├── .archive/                       # Old/deprecated files
 ├── .gitattributes                  # Git configuration
 └── README.md                       # This file
+
+
+## 🚀 Getting Started
+Prerequisites
+Python 3.7+: pandas, numpy, scikit-learn, TensorFlow/Keras, statsmodels
+
+R 4.0+: forecast, lubridate, ggplot2, tidyverse
+
+Jupyter Notebook or RStudio for interactive development.
